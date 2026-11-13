@@ -7,6 +7,15 @@
   --acento: #0969da;
 }
 
+body.oscuro {
+  --fondo: #0d1117;
+  --tarjeta: #161b22;
+  --texto: #e6edf3;
+  --secundario: #9198a1;
+  --borde: #30363d;
+  --acento: #4493f8;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -55,4 +64,19 @@ body {
 .carta li span:last-child {
   color: var(--acento);
   font-weight: 600;
+}
+
+.boton-tema {
+  margin-top: 24px;
+  padding: 10px 18px;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  background-color: var(--fondo);
+  color: var(--texto);
+  font: inherit;
+  cursor: pointer;
+}
+
+.boton-tema:hover {
+  border-color: var(--acento);
 }
