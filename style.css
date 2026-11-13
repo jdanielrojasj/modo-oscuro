@@ -1,0 +1,58 @@
+:root {
+  --fondo: #f6f8fa;
+  --tarjeta: #ffffff;
+  --texto: #1f2328;
+  --secundario: #59636e;
+  --borde: #d1d9e0;
+  --acento: #0969da;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  background-color: var(--fondo);
+  color: var(--texto);
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+.carta {
+  width: min(380px, 100%);
+  padding: 28px;
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  background-color: var(--tarjeta);
+  text-align: center;
+}
+
+.carta h1 {
+  margin: 0 0 4px;
+}
+
+.carta p {
+  margin: 0 0 20px;
+  color: var(--secundario);
+}
+
+.carta ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.carta li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--borde);
+}
+
+.carta li span:last-child {
+  color: var(--acento);
+  font-weight: 600;
+}
