@@ -2,6 +2,8 @@
 
 Una carta de restaurante con un botón para cambiar entre tema claro y oscuro. La página recuerda el tema elegido aunque cierres el navegador.
 
+![Carta de restaurante en modo oscuro, con el botón para cambiar a modo claro](captura.png)
+
 ## Demo
 
 [Ver la carta](https://jdanielrojasj.github.io/modo-oscuro/)
